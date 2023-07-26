@@ -11,7 +11,8 @@
 
 .gamer-area,
 .online-games,
-.play-instant {
+.play-instant,
+.btn-area {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -336,6 +337,59 @@ nav {
   position: relative;
   bottom: 18.0625rem;
   right: 10.8125rem;
+}
+
+/* Button Area Style */
+
+.btn-area {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 1.75rem;
+}
+
+.btn-area-1,
+.btn-area-2 {
+  display: flex;
+  gap: 2.75rem;
+}
+
+.btn-area-2 {
+  padding-left: 5.375rem;
+}
+
+.btn-title > .nice-btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  /* border: 2px solid rebeccapurple; */
+  border-radius: 50px;
+  background: #fff;
+  border: 0;
+  color: #0b0223;
+  font-size: 1.125rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all ease;
+}
+
+.btn-title > .nice-btn:hover {
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 2px solid #ff42a5;
+}
+
+.nice-btn > img {
+  padding: 0.625rem 0 0.625rem 0.625rem;
+}
+
+.nice-btn > p {
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+  margin-right: 1.25rem;
 }
 
 /* .gamer-area {

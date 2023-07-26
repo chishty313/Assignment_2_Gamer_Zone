@@ -9,7 +9,9 @@
   .banner,
   .gamer-area,
   .online-games-img-container,
-  .play-instant {
+  .play-instant,
+  .btn-area-1,
+  .btn-area-2 {
     padding: 1rem;
     flex-direction: column;
     align-items: center;
@@ -89,6 +91,16 @@
     bottom: 8rem;
     right: 5rem;
   }
+
+  .btn-area {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+  }
+
+  .btn-area-1,
+  .btn-area-2 {
+    flex-direction: column;
+  }
 }
 
 /* For Tablet */
@@ -102,7 +114,9 @@
   .banner,
   .gamer-area,
   .online-games-img-container,
-  .play-instant {
+  .play-instant,
+  .btn-area-1,
+  .btn-area-2 {
     padding: 1rem;
     flex-direction: column;
     align-items: center;
@@ -192,6 +206,16 @@
     position: relative;
     bottom: 15rem;
     right: 8rem;
+  }
+
+  .btn-area {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+  }
+
+  .btn-area-1,
+  .btn-area-2 {
+    flex-direction: column;
   }
 }
 
