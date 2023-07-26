@@ -392,6 +392,123 @@ nav {
   margin-right: 1.25rem;
 }
 
+/* Footer styles */
+
+footer {
+  background: #0b0223;
+}
+
+.foot {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  padding-left: 30rem;
+  padding-right: 30rem;
+  text-align: center;
+}
+
+.foot-gamer-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foot-gamer-style {
+  color: #fff;
+  font-size: 2.8125rem;
+  font-weight: 700;
+  padding-left: 1.25rem;
+}
+
+.foot-style-g {
+  color: #ff42a5;
+}
+
+.tag {
+  display: grid;
+  margin-top: 4.5rem;
+  margin-bottom: 4.125rem;
+  justify-content: center;
+  /* gap: 2rem; */
+}
+
+.tag ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 3.75rem;
+  align-items: center;
+}
+
+.tag li {
+  list-style: none;
+}
+
+.tag li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.social-media {
+  display: grid;
+  margin-top: 4.5rem;
+  margin-bottom: 4.125rem;
+  justify-content: center;
+  /* gap: 2rem; */
+}
+
+.social-media ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 3.75rem;
+  align-items: center;
+}
+
+.social-media li {
+  list-style: none;
+}
+
+.social-media li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.extra-info {
+  display: grid;
+  margin-top: 4.5rem;
+  margin-bottom: 4.125rem;
+  justify-content: center;
+  /* gap: 2rem; */
+}
+
+.extra-info ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3.75rem;
+  align-items: center;
+}
+
+.extra-info li {
+  list-style: none;
+}
+
+.extra-info li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.copywrite {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 600;
+  width: 4rem;
+  padding: 0;
+}
+
 /* .gamer-area {
   display: none;
 } */

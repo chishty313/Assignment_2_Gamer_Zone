@@ -101,6 +101,23 @@
   .btn-area-2 {
     flex-direction: column;
   }
+
+  .tag ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .social-media ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .extra-info ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .foot {
+    padding-left: 10rem;
+    padding-right: 13rem;
+  }
 }
 
 /* For Tablet */
