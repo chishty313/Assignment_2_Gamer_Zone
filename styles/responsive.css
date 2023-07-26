@@ -8,7 +8,8 @@
   .nav-gamer-options ul,
   .banner,
   .gamer-area,
-  .online-games-img-container {
+  .online-games-img-container,
+  .play-instant {
     padding: 1rem;
     flex-direction: column;
     align-items: center;
@@ -54,6 +55,40 @@
   .online-games-description {
     padding: 1rem;
   }
+
+  .play-instant {
+    margin-top: 0;
+    display: flex;
+    gap: 5rem;
+  }
+
+  .play-instant-content {
+    padding: 1px;
+  }
+
+  .play-instant-title {
+    padding-left: 13rem;
+    text-align: center;
+    margin-top: 5rem;
+  }
+
+  .play-instant-description {
+    text-align: center;
+    width: 25rem;
+    padding-right: 11rem;
+  }
+
+  .play-instant-img img {
+    width: 80%;
+    padding-left: 5rem;
+  }
+
+  .play-instant-img-dance img {
+    width: 40%;
+    position: relative;
+    bottom: 8rem;
+    right: 5rem;
+  }
 }
 
 /* For Tablet */
@@ -66,7 +101,8 @@
   .nav-gamer-options ul,
   .banner,
   .gamer-area,
-  .online-games-img-container {
+  .online-games-img-container,
+  .play-instant {
     padding: 1rem;
     flex-direction: column;
     align-items: center;
@@ -121,6 +157,41 @@
 
   .online-games {
     text-align: center;
+  }
+
+  .play-instant {
+    max-width: 768px;
+    margin-top: 0;
+    display: flex;
+    gap: 5rem;
+  }
+
+  .play-instant-content {
+    padding: 1px;
+  }
+
+  .play-instant-title {
+    padding-left: 14rem;
+    text-align: center;
+    margin-top: 5rem;
+  }
+
+  .play-instant-description {
+    text-align: center;
+    width: 26rem;
+    padding-right: 25rem;
+  }
+
+  .play-instant-img img {
+    width: 70%;
+    padding-left: 7rem;
+  }
+
+  .play-instant-img-dance img {
+    width: 40%;
+    position: relative;
+    bottom: 15rem;
+    right: 8rem;
   }
 }
 

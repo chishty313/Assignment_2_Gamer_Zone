@@ -10,7 +10,8 @@
 }
 
 .gamer-area,
-.online-games {
+.online-games,
+.play-instant {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -289,6 +290,52 @@ nav {
   font-size: 1.25rem;
   font-weight: 500;
   margin-top: 1.5rem;
+}
+
+/* Play Instant styles */
+
+.play-instant {
+  margin-top: 7.5rem;
+  display: flex;
+  gap: 16.5625rem;
+}
+
+.play-instant-title {
+  width: 21.5rem;
+  text-align: end;
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 13.5rem;
+  padding-left: 12rem;
+}
+
+.play-instant-title-fancy {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.play-instant-description {
+  color: #534c64;
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-align: end;
+  margin-top: 1.5rem;
+  width: 22.0625rem;
+  padding-left: 11.6875rem;
+}
+
+.play-instant-img-dance {
+  border-radius: 8px;
+  border: 10px solid #fff;
+}
+
+.play-instant-img-dance img {
+  position: relative;
+  bottom: 18.0625rem;
+  right: 10.8125rem;
 }
 
 /* .gamer-area {
