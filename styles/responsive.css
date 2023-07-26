@@ -1,26 +1,135 @@
-/* For Mobile S */
-@media screen and (max-width: 320px) {
+/* For Mobile L */
+@media screen and (max-width: 425px) {
+  /* * {
+    max-width: 425px;
+  } */
   nav,
   .nav-gamer-options,
-  .nav-gamer-options ul {
+  .nav-gamer-options ul,
+  .banner,
+  .gamer-area,
+  .online-games-img-container {
     padding: 1rem;
     flex-direction: column;
+    align-items: center;
   }
+
+  /* .nav-box {
+    width: 100%;
+  } */
 
   .nav-gamer-options {
     padding-top: 2rem;
   }
 
-  .follow-us p {
+  .nav-gamer-options .follow-us p {
     padding-right: 0;
+  }
+
+  .banner-content {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .banner-content-goat {
+    font-size: 4.5rem;
+  }
+
+  .banner-img img {
+    width: 100%;
+  }
+
+  .gamer-area-img img {
+    max-width: 100%;
+  }
+
+  .gamer-area-content-description {
+    width: 24rem;
+  }
+
+  .online-games {
+    text-align: center;
+  }
+
+  .online-games-description {
+    padding: 1rem;
+  }
+}
+
+/* For Tablet */
+@media screen and (max-width: 768px) {
+  /* * {
+    max-width: 425px;
+  } */
+  nav,
+  .nav-gamer-options,
+  .nav-gamer-options ul,
+  .banner,
+  .gamer-area,
+  .online-games-img-container {
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* .nav-box {
+    width: 100%;
+  } */
+
+  .nav-gamer-options {
+    padding-top: 2rem;
+  }
+
+  /* .nav-gamer-options .follow-us p {
+    padding-right: 0;
+  } */
+
+  .banner-content {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .banner-content-points {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner-content-goat {
+    font-size: 5.9375rem;
+  }
+
+  .banner-img img {
+    width: 100%;
+  }
+
+  .gamer-area-img img {
+    max-width: 100%;
+  }
+
+  .gamer-area-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .gamer-area-content-description {
+    padding-left: 6rem;
+  }
+  .gamer-area-content-qoutes {
+    margin-top: 3.7rem;
+  }
+
+  .online-games {
+    text-align: center;
   }
 }
 
 /* For Mobile M */
-@media screen and (min-width: 320px) and (max-width: 375px) {
+/* @media screen and (min-width: 576px) and (max-width: 768px) {
   nav,
   .nav-gamer-options,
-  .nav-gamer-options ul {
+  .nav-gamer-options ul,
+  .banner {
     padding: 1rem;
     flex-direction: column;
   }
@@ -36,19 +145,33 @@
   .follow-us p {
     padding-right: 0;
   }
-}
+
+  .banner-content {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .banner-content-goat {
+    font-size: 4.5rem;
+  }
+
+  .banner-img img {
+    width: 100%;
+  }
+} */
 
 /* For Mobile L */
-@media screen and (min-width: 375px) and (max-width: 425px) {
+/* @media screen and (min-width: 768px) and (max-width: 992px) {
   nav,
   .nav-gamer-options,
-  .nav-gamer-options ul {
+  .nav-gamer-options ul,
+  .banner {
     padding: 1rem;
     flex-direction: column;
   }
 
   .nav-gamer-title {
-    padding-left: 4.5rem;
+    padding-left: 3rem;
   }
 
   .nav-gamer-options {
@@ -58,13 +181,27 @@
   .follow-us p {
     padding-left: 2.7rem;
   }
-}
+
+  .banner-content {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .banner-content-goat {
+    font-size: 4.5rem;
+  }
+
+  .banner-img img {
+    width: 100%;
+  }
+} */
 
 /* For Tablet */
-@media screen and (min-width: 425px) and (max-width: 768px) {
+/* @media screen and (min-width: 992px) and (max-width: 1200px) {
   nav,
   .nav-gamer-options,
-  .nav-gamer-options ul {
+  .nav-gamer-options ul,
+  .banner {
     padding: 2rem 5rem;
     flex-direction: column;
   }
@@ -80,11 +217,17 @@
   .follow-us p {
     padding-left: 5.5rem;
   }
-}
 
-/* For Laptop L */
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
-  nav {
-    padding: 2.5rem 11rem;
+  .banner-content {
+    width: 1000%;
+    padding: 1rem;
   }
-}
+
+  .banner-content-goat {
+    font-size: 5.9375rem;
+  }
+
+  .banner-img img {
+    width: 100%;
+  }
+} */
